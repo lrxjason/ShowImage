@@ -16,6 +16,12 @@ make
 
 to build this project
 
+# Or bash install
+
+Type:
+
+bash install.sh
+
 # Running
 To display a image, type:
 
