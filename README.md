@@ -25,10 +25,6 @@ bash install.sh
 # Running
 To display a image, type:
 
-cd ..
-
-cd bin
-
-./showimage ../Dayton.png
+bin/showimage ../Dayton.png
 
 in terminal under the prject folder 
