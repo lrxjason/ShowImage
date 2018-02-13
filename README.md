@@ -19,6 +19,10 @@ to build this project
 # Running
 To display a image, type:
 
-./showiamge ../Dayton.png
+cd ..
+
+cd bin
+
+./showimage ../Dayton.png
 
 in terminal under the prject folder 
