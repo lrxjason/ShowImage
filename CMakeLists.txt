@@ -1,0 +1,10 @@
+cmake_minimum_required(VERSION 2.8)
+project( DisplayImage )
+SET(CMAKE_CXX_COMPILER "g++")
+SET( CMAKE_BUILD_TYPE Release )
+SET( CMAKE_CXX_FLAGS "-O3 -std=c++11" )
+SET(EXECUTABLE_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/bin)
+
+find_package( OpenCV REQUIRED )
+add_executable( showimage test.cpp )
+target_link_libraries( showimage ${OpenCV_LIBS} )
