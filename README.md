@@ -4,7 +4,7 @@ Show an image using opencv and buid the program with Cmake
 # Installation
 After you download it, type:
 
-cd show_image
+cd ShowImage
 mkdir build
 cd build
 cmake ..
