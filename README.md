@@ -5,9 +5,13 @@ Show an image using opencv and buid the program with Cmake
 After you download it, type:
 
 cd ShowImage
+
 mkdir build
+
 cd build
+
 cmake ..
+
 make
 
 to build this project
